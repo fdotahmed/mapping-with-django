@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.ipynb_checkpoints",
+    "\\covid19impactmap",
+    "\\data",
+    "\\map",
+    "\\templates"
+  ],
+  "SelectedNode": "\\covid19impactmap\\urls.py",
+  "PreviewInSolutionExplorer": false
+}
