@@ -117,7 +117,7 @@ def index(request):
     for a,b,c,d in zip(dist_name,rate,lat,long):
         link=url+str(a).lower()
         if(0<b<7):
-            folium.Marker(location=[c,d],popup="<b>District Name: </b><a href="+link+" target= '_blank'>"+a+"</a>""<br><b>Infection rate : "+str(b)+"</b>"+"%",icon=folium.Icon(color="lightblue")).add_to(m)
+            folium.Marker(location=[c,d],popup="<b>DISTRICT Name: </b><a href="+link+" target= '_blank'>"+a+"</a>""<br><b>Infection rate : "+str(b)+"</b>"+"%",icon=folium.Icon(color="lightblue")).add_to(m)
         if(7<b<11):
             folium.Marker(location=[c,d],popup="<b>District Name: </b><a href="+link+" target= '_blank'>"+a+"</a>""<br><b>Infection rate : "+str(b)+"</b>"+"%",icon=folium.Icon(color="green")).add_to(m)
         if(11<b<15):
